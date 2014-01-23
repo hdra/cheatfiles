@@ -1,0 +1,3 @@
+# generate thumbnails (can be used to convert svg)
+qlmanage -t -s 1000 -o . picture.svg 
+

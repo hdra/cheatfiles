@@ -1,0 +1,17 @@
+#To merge changes from branch X
+git merge --no-ff X
+
+#Track remote branch
+git branch -u origin/develop
+
+#Create new branch Y from X
+git checkout -b Y X
+
+#Remove a branch
+git branch -d X
+
+#Push to different remote branch. e.g. Push local develop branch to master branch on heroku
+git push heroku develop:master
+
+#Clear stashes
+git clear stash
