@@ -15,3 +15,8 @@ git push heroku develop:master
 
 #Clear stashes
 git clear stash
+
+# Create new branch and push
+$ git checkout -b mynewfeature
+... edit files, add and commit ...
+$ git push -u origin mynewfeature
